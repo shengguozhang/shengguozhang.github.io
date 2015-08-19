@@ -1,16 +1,19 @@
+<!--background: yellow;-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta name="keywords" content="Chinese, Tutor, Learn, NYC, JavaScript">
-        <link rel="shortcut icon" href="/images/icon.ico" type="image/x-icon" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="/normalize.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
         <title>Learn Mandarin in NYC|Private Lessons</title>
         <style>
             header{
                 text-align: center;
-                font-family: sans-serif;
-                background-color: aquamarine;
+                font-family: Arvo;
+                <!--background-color: aquamarine;-->
                 margin: 0px;
+                padding: 50px;
                 
             }
             header h1{
@@ -20,13 +23,18 @@
                 padding: 0px;
             }
             ul{
+                list-style: none;
                 text-align: center;
-                font-family: sans-serif;
-                font-size: 17px;
+                font-family: Arvo;
+                font-size: 20px;
+                padding: 10px;
+                <!--background: yellow;-->
+                margin-top: 60px;
             }
             li{
-                display:inline;
-                padding: 0px 10px 0px 10px;
+                text-decoration: none;
+                padding-bottom: 30px;
+                margin:0px;
             }
             a{
                 color: inherit;
@@ -39,22 +47,23 @@
             .intro{
                 font-size: 15px;
                 font-family: sans-serif;
+                margin: 0px;
             }
         </style>
     </head>
     <body>
         <header>
-            <h1>Mandarin Tutor in NYC</h1>
+            <div class="container-fluid">
+                <h1>Mandarin Tutor in NYC</h1>
+                <h3>917.868.8719</h6>
+            </div>
         </header>
-        <div class="nav">
-            <ul>
-                <li><a href="/about">About</a></li>
-                <li><a href="/lessons">Lessons</a></li>
-                <li><a href="/testimonials">Testimonials</a></li>
-                <li><a href="/materials">Study Guides</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </div>
-        <p class="intro">Mandarin Teacher in New York City</p>
+        <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/lessons">Lessons</a></li>
+            <li><a href="/testimonials">Testimonials</a></li>
+            <li><a href="/materials">Study Guides</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
     </body>
 </html>
